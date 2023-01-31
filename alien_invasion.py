@@ -23,7 +23,7 @@ class AlienInvasion:
             pygame.display.flip()
 
 
-if __name__ == '__main__':
+#if __name__ == '__alien_invasion__':
     # Создание экземпляра и запуск игры.
-    ai = AlienInvasion()
-    ai.run_game()
+ai = AlienInvasion()
+ai.run_game()
