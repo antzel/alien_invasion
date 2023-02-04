@@ -62,6 +62,7 @@ class AlienInvasion:
         """Обрабатывает нажатия клавиш и события мыши."""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                self.stats.write_high_score()
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
                 self._check_keydown_events(event)
